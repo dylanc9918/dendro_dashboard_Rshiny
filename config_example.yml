@@ -1,0 +1,32 @@
+default:
+  site_info:
+    db_name: "fake_tree_site_info_db"
+    db_port: 3308
+    db_host: "192.168.1.1"
+    db_user: "fake_user"
+    db_password: "fake_password"
+    tbl_name: "fake_dendro_sites"
+    audit: "fake_dendro_sites_audit"
+
+  raw_data_default:
+    db_name: "fake_raw_data"
+    db_port: 5432
+    db_host: "localhost"
+    db_user: "fake_postgres"
+    db_password: "fake_password"
+
+production:
+  db_name: "fake_tree_site_info_db"
+  db_port: 3308
+  db_host: "127.0.0.1"
+  db_user: "fake_user"
+  db_password: "fake_password"
+  tbl_name: "fake_dendro_sites"
+  audit: "fake_dendro_sites_audit"
+
+  raw_data_default:
+    db_name: "fake_raw_data"
+    db_port: 3308
+    db_host: "192.168.1.1"
+    db_user: "fake_user"
+    db_password: "fake_password"
