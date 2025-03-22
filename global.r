@@ -89,10 +89,6 @@ raw_rwi <- dbPool(
 
 
 
-MDBPATH <- "C:\\Users\\Admin\\OneDrive\\Documents\\work\\Hydat.mdb"
-
-## Establish connection
-con_proxy <- odbcConnectAccess2007(MDBPATH)
 
 ## API URL
 api_url <- "https://api.weather.gc.ca/collections"
